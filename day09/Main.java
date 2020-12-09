@@ -1,4 +1,4 @@
-package day9;
+package day09;
 
 import utils.FileTo;
 
@@ -8,7 +8,7 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<Long> list = FileTo.fileToLongList("src/day9/input.txt");
+        ArrayList<Long> list = FileTo.fileToLongList("src/day09/input.txt");
 
         LinkedList<Long> toCheck = new LinkedList<>();
 
@@ -60,8 +60,6 @@ public class Main {
             } while (sum < x && it < list.size());
             if (sum == x) break;
         }
-
-        System.out.println(contiguous);
 
         long min = contiguous.get(0);
         for (long a: contiguous) {

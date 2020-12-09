@@ -1,4 +1,4 @@
-package day4;
+package day04;
 
 import utils.FileTo;
 
@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<ArrayList<String>> allPassport = FileTo.fileToEchantillons("src/day4/input.txt");
+        ArrayList<ArrayList<String>> allPassport = FileTo.fileToEchantillons("src/day04/input.txt");
 
         int c = 0;
 

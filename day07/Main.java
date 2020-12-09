@@ -1,4 +1,4 @@
-package day7;
+package day07;
 
 import utils.FileTo;
 
@@ -9,7 +9,7 @@ import java.util.TreeSet;
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<String> list = FileTo.fileToStringList("src/day7/input.txt");
+        ArrayList<String> list = FileTo.fileToStringList("src/day07/input.txt");
 
         HashMap<String, HashMap<String, Integer>> bags = new HashMap<>();
 
@@ -24,8 +24,6 @@ public class Main {
                 }
             }
         }
-
-        System.out.println(bags);
 
         TreeSet<String> ans = new TreeSet<>();
 

@@ -1,4 +1,4 @@
-package day8;
+package day08;
 
 import utils.FileTo;
 
@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> data = FileTo.fileToStringList("src/day8/input.txt");
+        ArrayList<String> data = FileTo.fileToStringList("src/day08/input.txt");
 
 
         for (int i = 0; i < data.size(); i++) {

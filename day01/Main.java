@@ -1,4 +1,4 @@
-package day1;
+package day01;
 
 import utils.FileTo;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Integer> list = FileTo.fileToIntList("src/day1/input.txt");
+        ArrayList<Integer> list = FileTo.fileToIntList("src/day01/input.txt");
 
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.size(); j++) {
