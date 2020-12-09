@@ -36,6 +36,16 @@ public class FileTo {
         return list;
     }
 
+    public static ArrayList<Long> fileToLongList(String path) {
+        ArrayList<Long> list = new ArrayList<>();
+
+        for (String s : fileToStringList(path)) {
+            list.add(Long.parseLong(s));
+        }
+
+        return list;
+    }
+
     public static ArrayList<ArrayList<String>> fileToEchantillons(String path) {
         ArrayList<ArrayList<String>> list = new ArrayList<>();
 
